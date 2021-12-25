@@ -1,0 +1,239 @@
+body {
+    margin:0;
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-color:black;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.width-control {
+    width: 1000px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    
+    margin: 16px 0px;
+    margin-bottom: 100px;
+}
+
+.logo{
+    font-weight:bolder;
+    font-size: x-large;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    flex: 1;
+    display:flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.section1-content-row {
+    display:flex;
+    flex-direction:row;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.section1-content {
+    display:flex;
+    flex-direction:column;
+    flex: 1;
+    justify-content: center;
+}
+
+.section1-content-title {
+    font-size: 48px;
+    font-weight:900;
+    color:#F9FAF8;
+    margin-bottom: 10px;
+}
+
+.section1-content-subtext {
+    font-size: 18px;
+    color:#F9FAF8;
+    margin-bottom: 20px;
+}
+
+.section1-content-signup {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    width:120px;
+    padding:8px;
+    border-style: none;
+    font-weight: bold;
+}
+
+button.section1-content-signup:hover {
+    background-color: #38c0f6;
+}
+
+button.section1-content-signup:active {
+    background-color: #38c0f6;
+    transform: translateY(2px)
+}
+
+.section1-image {
+    flex: 1;
+}
+
+.section1-image img {
+    width: 500px;
+    border-radius: 8px;
+    
+    /* http://www.corelangs.com/css/box/shadow.html */
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+      -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+      -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+      -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+
+      
+}
+
+.section2, .section4 {
+    background-color: white;
+    color: #1f2937;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2-title {
+    font-size: 32px;
+    text-align:center;
+    font-weight:900;
+    margin: 48px 0px;
+}
+
+.section2-diagrams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section2-diagram {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 80px
+
+
+}
+
+.rounded-corners {
+    border-radius: 25px;
+    border: 4px solid #3882f6;
+    padding: 20px;
+    width: 100px;
+    height: 100px; 
+}
+
+.section2-normal-text {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3-content {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.section3-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 100px 100px 0px 100px;
+
+    
+}
+
+.section3-author {
+    font-size: 24px;
+    font-weight:bold;
+    color: #1f2937;
+    width:auto;
+    align-self: flex-end;
+    margin-right: 110px;
+    margin-bottom: 100px;
+}
+
+.section4-call-to-action {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px 50px;
+    display:flex;
+
+}
+
+.section4-message {
+    padding: 30px;
+}
+
+.section4-title {
+    font-size:25px;
+    margin-bottom: 3px;
+}
+
+.section4-call-to-action button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    width:120px;
+    padding:8px;
+    border: 2px solid white;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 190px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
