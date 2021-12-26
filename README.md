@@ -6,6 +6,8 @@ I decided to stick very close to the designs because (in my opinion) it is cruci
 
 All designs were provided by [The Odin Project](https://www.theodinproject.com/).
 
+[Live Preview](https://jekplex.github.io/landing_page/)
+
 ## Designs
 
 [![Design 1](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png)](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png)
